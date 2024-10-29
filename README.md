@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 1060
 
-## Getting Started
+> Don't put the cart before the horse...
 
-First, run the development server:
+Don't build the product before you start to sell it.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> It's the moment between...
+> 
+> A. The client mentions a wysiwyg, like HighLevel's Form Builder.
+> B. The client gets tired of watching me use Tailwind CSS.
+> C. They think that because CSS is cheap and my rates are high that I can just miraculously do CSS faster.
+>   1. That's not how typing works
+>   2. Even if I can type fast, that doesn't mean I have every single rule memorized.
+      a. There are 584 properties.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Epiphany: "Marketplace of the Mind"
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Derived from: "Castle of the Mind" or "Odyssey of the Mind"
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Description: A mental recall technique where you visualize data (and things) as physical objects that represent the data in some way — and then use that like a map to draw a "path of recall".
 
-## Learn More
+The Objects:
 
-To learn more about Next.js, take a look at the following resources:
+1. A hose (aka. "supply line")
+  Offense: Supply/Demand
+  "The Lord GOD has given Me the tongue of disciples, So that I may know how to sustain the weary one with a word. He awakens Me morning by morning, He awakens My ear to listen as a disciple."
+  Isaiah 50:4
+  a. A "teachable" pipeline
+    i. Integrations
+    ii. Documentation
+    iii. Your own syntax or your "twist" on things...
+      1. IMGNX Spark: Open Source Initiative to inspire collaboration.
+    iv. Automation via GUI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. A razor's edge (aka. "the quickness")
+  Defense: Sobriety/Vigilance
+  "Be sober; be vigilant; for your adversary The Devil roams about like a roaring lion, seeking whom he may devour."
+  – 1 Peter 5:8-9
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  What you need:
+  a. A (fast) Checkout (which might include multiple dependencies)
+    i. Stripe
+    ii. PayPal
+    iii. Paddle
+    iv. HighLevel
 
-## Deploy on Vercel
+## Game: Musical Roulette
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Roll the d12 and whatever you get is the first note in the song...
