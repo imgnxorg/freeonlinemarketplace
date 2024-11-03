@@ -1,12 +1,6 @@
 # Free Online Marketplace
 
-<!-- <div style="display: inline-flex; background-image: linear-gradient(to right, #ff4420, #20b0ff, #ffb0bb); font-size: 3rem;">
-  <div style="mix-blend-mode: exclusion; color: #fff;">Free</div>&nbsp;
-  <div style="mix-blend-mode: exclusion; color: #fff;">Online</div>&nbsp;
-  <div style="mix-blend-mode: exclusion; color: #fff;">Marketplace</div>
-</div> -->
-
-<div style="display: flex; max-width: 180px">
+<div style="display: flex; max-width: 180px; filter: invert(100);">
   <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
     <div style="width: 33.333%; height: 100%; background-color: #5C271F;">
     </div>
