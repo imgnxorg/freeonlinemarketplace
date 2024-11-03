@@ -1,28 +1,55 @@
 # Free Online Marketplace
 
-<div style="display: flex; max-width: 180px; filter: invert(100);">
+> "The Marketplace of The Mind."
+<div style="display: flex; max-width: 180px;">
   <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
-    <div style="width: 33.333%; height: 100%; background-color: #5C271F;">
+    <div style="width: 33.333%; height: 100%; background-color: #181111;">
     </div>
     <div style="width: 33.333%; height: 100%; background-color: #E54D2E;">
     </div>
-    <div style="width: 33.333%; height: 100%; background-color: #FFFCFC;">
+    <div style="width: 33.333%; height: 100%; background-color: #fbd3cb;">
     </div>
   </div>
   <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
-    <div style="width: 33.333%; height: 100%; background-color: #113264;">
+    <div style="width: 33.333%; height: 100%; background-color: #0d1520;">
     </div>
     <div style="width: 33.333%; height: 100%; background-color: #0090FF;">
     </div>
-    <div style="width: 33.333%; height: 100%; background-color: #FBFDFF;">
+    <div style="width: 33.333%; height: 100%; background-color: #c2e6ff;">
     </div>
   </div>
   <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
-    <div style="width: 33.333%; height: 100%; background-color: #651249;">
+    <div style="width: 33.333%; height: 100%; background-color: #191117;">
     </div>
     <div style="width: 33.333%; height: 100%; background-color: #D6409F;">
     </div>
-    <div style="width: 33.333%; height: 100%; background-color: #FFFCFE;">
+    <div style="width: 33.333%; height: 100%; background-color: #fdd1ea;">
+    </div>
+  </div>
+</div>
+<div style="display: flex; max-width: 180px; filter: invert(100);">
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #181111;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #E54D2E;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #fbd3cb;">
+    </div>
+  </div>
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #0d1520;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #0090FF;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #c2e6ff;">
+    </div>
+  </div>
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #191117;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #D6409F;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #fdd1ea;">
     </div>
   </div>
 </div>
@@ -52,13 +79,33 @@
     </div>
   </div>
 </div>
-<!-- <div style="display: flex;">
-  <div style="height: 20px; width: 20px; background-color: #00ffff;"></div>
-  <div style="height: 20px; width: 20px; background-color: #ff1010;"></div>
-  <div style="height: 20px; width: 20px; background-color: #025041;"></div>
-</div> -->
 
-<blockquote style="line-height: 2.25;">"The <span style="color: #ff4420;">One</span> and Only&nbsp;<span style="color: #20b0ff;">Marketplace</span> of The <span style="color: #ffc0cc;">Mind</span>."</blockquote>
+<div style="display: flex; max-width: 180px; filter: invert(100);">
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #5C271F;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #E54D2E;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #FFFCFC;">
+    </div>
+  </div>
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #113264;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #0090FF;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #FBFDFF;">
+    </div>
+  </div>
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #651249;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #D6409F;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #FFFCFE;">
+    </div>
+  </div>
+</div>
 
 ## Q: How did this repository come into existence?
 
