@@ -44,6 +44,7 @@ _folder
 # Temporarily disabled on 2021-07-22
 utilities
 bootstrap-toaster
+*.zip
 next-app-template
 wheel-of-fortune
 app/office/domain-checker/page.js
