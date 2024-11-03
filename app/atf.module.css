@@ -1,0 +1,7 @@
+.squareFrame {
+    @apply absolute inset-20 bg-contain bg-no-repeat bg-center z-[9] pointer-events-none
+           mix-blend-luminosity border-8 border-taupe-900 -m-[8px] rounded-[3.14159pc]
+           ring-8 ring-inset ring-espresso-950 ring-offset-8 md:ring-offset-[55px]
+           dark:ring-offset-[--mauve-10] dark:ring-offset-[55px]
+           outline-double outline-8 -outline-offset-[32px] outline-[--taupe-12];
+}

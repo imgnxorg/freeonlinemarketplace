@@ -1,49 +1,93 @@
-# 1060
+# Free Online Marketplace
 
-> Don't put the cart before the horse...
+<!-- <div style="display: inline-flex; background-image: linear-gradient(to right, #ff4420, #20b0ff, #ffb0bb); font-size: 3rem;">
+  <div style="mix-blend-mode: exclusion; color: #fff;">Free</div>&nbsp;
+  <div style="mix-blend-mode: exclusion; color: #fff;">Online</div>&nbsp;
+  <div style="mix-blend-mode: exclusion; color: #fff;">Marketplace</div>
+</div> -->
 
-Don't build the product before you start to sell it.
+<div style="display: flex; max-width: 180px">
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #5C271F;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #E54D2E;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #FFFCFC;">
+    </div>
+  </div>
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #113264;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #0090FF;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #FBFDFF;">
+    </div>
+  </div>
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #651249;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #D6409F;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #FFFCFE;">
+    </div>
+  </div>
+</div>
+<div style="display: flex; max-width: 180px">
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #5C271F;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #E54D2E;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #FFFCFC;">
+    </div>
+  </div>
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #113264;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #0090FF;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #FBFDFF;">
+    </div>
+  </div>
+  <div style="width: 33.333%; height: 20px; overflow: clip; display: flex;">
+    <div style="width: 33.333%; height: 100%; background-color: #651249;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #D6409F;">
+    </div>
+    <div style="width: 33.333%; height: 100%; background-color: #FFFCFE;">
+    </div>
+  </div>
+</div>
+<!-- <div style="display: flex;">
+  <div style="height: 20px; width: 20px; background-color: #00ffff;"></div>
+  <div style="height: 20px; width: 20px; background-color: #ff1010;"></div>
+  <div style="height: 20px; width: 20px; background-color: #025041;"></div>
+</div> -->
 
-> It's the moment between...
-> 
-> A. The client mentions a wysiwyg, like HighLevel's Form Builder.
-> B. The client gets tired of watching me use Tailwind CSS.
-> C. They think that because CSS is cheap and my rates are high that I can just miraculously do CSS faster.
->   1. That's not how typing works
->   2. Even if I can type fast, that doesn't mean I have every single rule memorized.
-      a. There are 584 properties.
+<blockquote style="line-height: 2.25;">"The <span style="color: #ff4420;">One</span> and Only&nbsp;<span style="color: #20b0ff;">Marketplace</span> of The <span style="color: #ffc0cc;">Mind</span>."</blockquote>
 
-# Epiphany: "Marketplace of the Mind"
+## Q: How did this repository come into existence?
 
-Derived from: "Castle of the Mind" or "Odyssey of the Mind"
+[**Free Online Marketplace**](https://freeonlinemarketplace.com) is an open source project that was started and still exists as an organizational unit.
 
-Description: A mental recall technique where you visualize data (and things) as physical objects that represent the data in some way — and then use that like a map to draw a "path of recall".
+> "It's how I keep things organized"<br />\- Donald
 
-The Objects:
+And since it's open source, you too can also use the "Marketplace of The Mind" to help you stay organized.
 
-1. A hose (aka. "supply line")
-  Offense: Supply/Demand
-  "The Lord GOD has given Me the tongue of disciples, So that I may know how to sustain the weary one with a word. He awakens Me morning by morning, He awakens My ear to listen as a disciple."
-  Isaiah 50:4
-  a. A "teachable" pipeline
-    i. Integrations
-    ii. Documentation
-    iii. Your own syntax or your "twist" on things...
-      1. IMGNX Spark: Open Source Initiative to inspire collaboration.
-    iv. Automation via GUI
+### Open Source Dependencies (Documentation)
 
-2. A razor's edge (aka. "the quickness")
-  Defense: Sobriety/Vigilance
-  "Be sober; be vigilant; for your adversary The Devil roams about like a roaring lion, seeking whom he may devour."
-  – 1 Peter 5:8-9
+- [Next.js](https://nextjs.org/docs)
+- [TailwindCSS](https://tailwindcss.com/docs/installation)
 
-  What you need:
-  a. A (fast) Checkout (which might include multiple dependencies)
-    i. Stripe
-    ii. PayPal
-    iii. Paddle
-    iv. HighLevel
+#### Other Dependencies (Commercial)
 
-## Game: Musical Roulette
+- [HighLevel CRM](https://www.gohighlevel.com/?fp_ref=dmholdings)
 
-1. Roll the d12 and whatever you get is the first note in the song...
+### Honorable Mentions
+
+- [Sanity]
+
+### Resources
+
+- [Method of loci](https://en.wikipedia.org/wiki/Method_of_loci)
+- [TedTalk: Chester Lian on "Memory Palace"](https://www.youtube.com/watch?v=0ahnDEXOagw)

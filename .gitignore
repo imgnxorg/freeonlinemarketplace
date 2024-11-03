@@ -40,3 +40,9 @@ _folder
 # Ignore all hidden files in this directory
 .*
 !**/.gitignore
+
+# Temporarily disabled on 2021-07-22
+utilities
+bootstrap-toaster
+next-app-template
+wheel-of-fortune

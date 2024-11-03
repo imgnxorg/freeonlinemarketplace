@@ -1,67 +1,72 @@
-import React from 'react'
-import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
-import Robot from '@/app/client/components/robot'
-import '@reach/skip-nav/styles.css'
+import React from "react";
+import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
+import QuickMenu from "@/components/quick-menu";
+import Robot from "@/components/robot";
+import "@reach/skip-nav/styles.css";
+import atf from "./atf.module.css";
+import Wheel from "@/wheel-of-fortune/wheel";
+{
+    /* <div className={`backdrop absolute inset-0 z-[51] border-8 border-double -border-offset-8 mix-blend-difference`}></div><div className={`vignette absolute inset-[8px] z-50`}></div> */
+}
 
 const MarketplaceOfTheMind = () => {
     return (
         <>
-            <div
-                className={`fixed z-10 inset-0 w-full h-full outline-8 outline-dashed outline-gray-600 ${
-                    process.env.NODE_ENV === 'development'
-                        ? '-outline-offset-8'
-                        : 'outline-offset-0'
-                }`}
-            ></div>
-            <div className="min-h-[100vh] outline-green-500 flex flex-col justify-center bg-white">
-                <div className="relative bg-[url('/img/freemart-bkgd.jpeg')] bg-cover bg-no-repeat bg-center aspect-[16/9] outline-blue-400 max-h-[100vh]">
-                    <SkipNavLink />
-
-                    <div className="absolute inset-0 container mx-auto w-full h-full text-center flex flex-col items-center justify-center">
-                        <img
-                            src="/img/logo-transparent.png"
-                            className="max-h-[100vh] p-10"
-                        />
+            <div className="relative z-0 aspect-[16/9] h-[100vh] w-[100vw] flex flex-col justify-center items-center">
+                <div className="absolute inset-0 bg-[url(/img/hand-left.png)] bg-cover bg-no-repeat bg-center z-10 pointer-events-none mix-blend-color-burn" />
+                <div className="absolute inset-0 bg-[url(/img/hand-right.png)] bg-cover bg-no-repeat bg-center z-0 pointer-events-none" />
+                <div className={`${atf.squareFrame} border-inset`} />
+                <div
+                    className="w-[100vh] h-[100vh] mx-auto rounded-full 
+                    z-[14]
+                    flex flex-col items-center justify-center
+                
+                "
+                >
+                    <div
+                        className="absolute w-[99vh] h-[99vh]
+                        z-[8] 
+                     flex flex-col justify-center items-center bg-center 
+                    bg-no-repeat bg-contain unselectable animate-spin-lower rounded-full
+                    border-8 border-[--mauve-9] border-inset
+                    ring-inset ring-8 ring-[--mauve-9] dark:ring-offset-taupe-400 ring-offset-[140px]
+                    outline outline-8 -outline-offset-[142px] outline-[--taupe-5]
+taupe  "
+                    >
+                        <img src="/img/freemart-ring.png" className="inset-0" />
                     </div>
-                    <div className="absolute z-20 inset-0 container mx-auto w-full h-full text-center flex flex-col items-center justify-center outline-yellow-400">
-                        <Robot />
-                    </div>
+                    <div
+                        className="bg-[url(/img/hand-left.png)] absolute pointer-events-none w-[100vh] h-[100vh] rounded-full bg-cover bg-no-repeat bg-center 
+                        mix-blend-color-burn
+z-[20] bg-clip-border flex items-center justify-center"
+                    />
+                    <div
+                        className="bg-[url(/img/hand-right.png)] absolute pointer-events-none w-[100vh] h-[100vh] rounded-full bg-cover bg-no-repeat bg-center 
+                        mix-blend-luminosity
+z-[20] bg-clip-border flex items-center justify-center"
+                    />
+                    <Robot />
                 </div>
             </div>
-
-            <div className="text-center w-full text-8xl container mx-auto bg-white">
-                <h2 className="text-7xl flex items-end justify-center pb-5 stack z-10">
-                    <span className="mix-blend-normal text-black">
-                        <span className="text-8xl tracking-tighter text-[#f20000] font-[900]">
-                            Free
-                        </span>
-                        <i>
-                            <span className="tracking-tighter text-black text-6xl">
-                                Online
-                            </span>
-                        </i>
-                        <br />
-                        <span className="text-[5rem] tracking-tighter text-[#f20000] font-[900]">
-                            Market
-                        </span>
-                        <span className="text-[5rem] tracking-tighter text-black font-[600]">
-                            place
-                        </span>
+            <div className="w-full h-[16]"></div>
+            <SkipNavContent />
+            <div className="container mx-auto max-w-5xl tracking-tighter font-semibold leading-9">
+                <div className="text-6xl font-medium prose-2xl text-balance">
+                    <span className="animate-heartbeat">_</span>
+                    The{" "}
+                    <span className="bg-gradient-to-r from-ferrari-600 to-candy-apple-600 bg-clip-text text-transparent font-black">
+                        Marketplace{" "}
                     </span>
-                </h2>
+                    of the{" "}
+                    <span className="bg-gradient-to-r from-pink-400 to-mauve-600 bg-clip-text text-transparent font-black">
+                        Mind
+                    </span>
+                </div>
             </div>
-            <div className="text-center w-full text-8xl container mx-auto bg-white">
-                [<b className="text-[red]">Free</b>
-                <sub>
-                    (<em>Online</em>)
-                    <sub>
-                        <b className="text-[red]">Market</b>
-                    </sub>
-                    place]
-                </sub>
-            </div>
+            <Wheel />
+            <QuickMenu className="absolute bottom-0" />
         </>
-    )
-}
+    );
+};
 
-export default MarketplaceOfTheMind
+export default MarketplaceOfTheMind;
