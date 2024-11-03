@@ -68,7 +68,7 @@
 
 ## Q: How did this repository come into existence?
 
-[**Free Online Marketplace**](https://freeonlinemarketplace.com) is an open source project that was started and still exists as an organizational unit.
+[**Free Online Marketplace**](https://github.com/imgnxorg/freeonlinemarketplace) is an open source project that was started and still exists as an organizational unit.
 
 > "It's how I keep things organized"<br />\- Donald
 
@@ -78,14 +78,11 @@ And since it's open source, you too can also use the "Marketplace of The Mind" t
 
 - [Next.js](https://nextjs.org/docs)
 - [TailwindCSS](https://tailwindcss.com/docs/installation)
+- [Sanity](https://sanity.io)
 
-#### Other Dependencies (Commercial)
+### Commercial Dependencies
 
 - [HighLevel CRM](https://www.gohighlevel.com/?fp_ref=dmholdings)
-
-### Honorable Mentions
-
-- [Sanity]
 
 ### Resources
 
