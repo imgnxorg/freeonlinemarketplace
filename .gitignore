@@ -47,3 +47,10 @@ bootstrap-toaster
 *.zip
 next-app-template
 wheel-of-fortune
+*.pdf
+*.docx
+*.doc
+*.xls
+*.xlsx
+*.ppt
+*.pptx
