@@ -121,7 +121,7 @@ And since it's open source, you too can also use the "Marketplace of The Mind" t
 - [TailwindCSS](https://tailwindcss.com/docs/installation)
 - [Sanity.io](https://www.sanity.io/docs?nis=7)
 - [CommerceLayer.io](https://commercelayer.io/developers)
-  - [Users & Organizations](https://commercelayer.io/docs/data-model/users-and-organizations)
+  - [Data Model](https://commercelayer.io/docs/data-model/users-and-organizations)
   - [API Reference](https://docs.commercelayer.io/core/api-reference)
 - [Hydrogen (Shopify)](https://shopify.dev/docs/storefronts/headless/hydrogen/getting-started)
 
