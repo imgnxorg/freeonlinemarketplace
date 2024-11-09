@@ -55,4 +55,6 @@ wheel-of-fortune
 *.ppt
 *.pptx
 
+*.lock
 *lock*
+
