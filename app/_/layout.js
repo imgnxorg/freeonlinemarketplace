@@ -10,7 +10,7 @@ const ClientLayout = () => {
         // const socket = io("https://server-domain.com/admin");
     }, []);
 
-    return <div>Not for sale!!!</div>;
+    return <div></div>;
 };
 
 export default ClientLayout;

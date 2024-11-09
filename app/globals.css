@@ -7,25 +7,32 @@
 @tailwind utilities;
 
 body {
-    color: var(--foreground);
-    background: var(--background);
+    color: light-dark(#ffffff, #0a0a0a);
+    background: light-dark(#0d0d0d, #fafafa);
     font-family: Arial, Helvetica, sans-serif;
     text-rendering: optimizeLegibility;
 }
 
-:root {
-    --background: #ffffff;
-    --foreground: #0d0d0d;
-    --foreground-hsl: hsl(0, 0%, 5%);
-    --foreground-hsla: hsla(0, 0%, 5%, 0.1);
+@media (prefers-color-scheme: light) {
+    :root {
+        --background: #fafafa;
+        --foreground: #0a0a0a;
+        --foreground-hsl: light-dark(hsl(0, 0%, 5%), hsl(0, 0%, 98%));
+        --foreground-hsla: light-dark(
+            hsla(0, 0%, 5%, 0.1),
+            hsl(0, 0%, 98%, 0.1)
+        );
+    }
 }
-
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #0a0a0a;
-        --foreground: #fafafa;
-        --foreground-hsl: hsl(0, 0%, 98%);
-        --foreground-hsla: hsl(0, 0%, 98%, 0.1);
+        --background: #0d0d0d;
+        --foreground: #ffffff;
+        --foreground-hsl: light-dark(hsl(0, 0%, 5%), hsl(0, 0%, 98%));
+        --foreground-hsla: light-dark(
+            hsla(0, 0%, 5%, 0.1),
+            hsl(0, 0%, 98%, 0.1)
+        );
     }
 }
 
@@ -169,3 +176,22 @@ pre.syntax-highlighter {
     outline: 2px solid blue;
     outline-offset: -1px;
 }
+
+.book {
+    cursor: pointer;
+    --book-depth: 56px;
+    --book-border-radius: 5.4px 1.8px 1.8px 5.4px;
+    --hover-rotate: -20deg;
+    --hover-scale: 1.066;
+    --hover-translate-x: -0.5em;
+    transform: rotate(0deg);
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+    box-shadow: none;
+}
+/* .book:hover {
+     transform: rotate(var(--hover-rotate)) scale(var(--hover-scale))
+        translateX(var(--hover-translate-x));
+     box-shadow: 0 0 0 1px var(--foreground);
+} */

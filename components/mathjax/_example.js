@@ -1,23 +1,23 @@
-'use client'
-import React from 'react'
-import MathJax from 'mathjax'
-import { useEffect } from 'react'
+"use client";
+import React from "react";
+import MathJax from "MathJax";
+import { useEffect } from "react";
 
 const MathJaxExample = () => {
     useEffect(() => {
         MathJax.Hub.Config({
             tex2jax: {
                 inlineMath: [
-                    ['$', '$'],
-                    ['\\(', '\\)'],
+                    ["$", "$"],
+                    ["\\(", "\\)"],
                 ],
                 processEscapes: true,
             },
             CommonHTML: { linebreaks: { automatic: true } },
-            'HTML-CSS': { linebreaks: { automatic: true } },
+            "HTML-CSS": { linebreaks: { automatic: true } },
             SVG: { linebreaks: { automatic: true } },
-        })
-    }, [])
+        });
+    }, []);
     return (
         <div>
             <p>This is an inline math formula: $x^2 + y^2 = z^2$.</p>
@@ -27,7 +27,7 @@ const MathJaxExample = () => {
                 \]
             </p>
         </div>
-    )
-}
+    );
+};
 
-export default MathJaxExample
+export default MathJaxExample;
