@@ -5,8 +5,9 @@ import atf from "./atf.module.css";
 import Introduction from "@/components/Onboarding/Introduction/introduction";
 import ColorTest from "@/components/Color Test/color-test";
 
-// Red pill: Spin wheel for a discounted lesson
-// Blue pill: Spin wheel for a discounted product
+// Red pill: Learn a new skill (like the "Random Facts").
+// Blue pill: Spin the wheel (get a discount). 
+//     - Could be a discount for a lesson.
 
 const MarketplaceOfTheMind = () => {
     return (
