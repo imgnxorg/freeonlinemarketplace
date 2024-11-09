@@ -54,3 +54,6 @@ wheel-of-fortune
 *.xlsx
 *.ppt
 *.pptx
+
+# Ignore all lock files
+*lock*
