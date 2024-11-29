@@ -1,6 +1,13 @@
+import { fileURLToPath } from "url";
+// import HtmlWebpackPlugin from "html-webpack-plugin";
 import createMDX from "@next/mdx";
-const dotenv = require("dotenv");
-const path = require("path");
+import dotenv from "dotenv";
+import path from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
+
 // Load environment variables from a custom path
 dotenv.config({
     path: path.resolve(

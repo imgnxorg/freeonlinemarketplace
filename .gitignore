@@ -57,3 +57,17 @@ wheel-of-fortune
 
 # Ignore all lock files
 *lock*
+
+# Notes
+__papers
+
+*.tree
+*.json
+*.md
+!README.md
+
+Keyboard navigation for everything?
+
+Adobe Spectrum
+
+.env*

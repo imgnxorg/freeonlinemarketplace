@@ -6,13 +6,13 @@ import Introduction from "@/components/Onboarding/Introduction/introduction";
 import ColorTest from "@/components/Color Test/color-test";
 
 // Red pill: Learn a new skill (like the "Random Facts").
-// Blue pill: Spin the wheel (get a discount). 
+// Blue pill: Spin the wheel (get a discount).
 //     - Could be a discount for a lesson.
 
 const MarketplaceOfTheMind = () => {
     return (
         <>
-            <div className="relative z-0 aspect-[16/9] h-[100vh] w-[100vw] flex flex-col justify-center items-center overflow-clip">
+            <div className="relative z-0 aspect-[16/9] h-[100vh] w-[100vw] flex flex-col justify-center items-center overflow-clip min-h-[100vh]">
                 <div className="absolute inset-0 bg-[url(/img/hand-left.png)] bg-cover bg-no-repeat bg-center z-10 pointer-events-none mix-blend-color-burn" />
                 <div className="absolute inset-0 bg-[url(/img/hand-right.png)] bg-cover bg-no-repeat bg-center z-0 pointer-events-none" />
                 <div className={`${atf.squareFrame} border-inset`} />

@@ -2,15 +2,18 @@
     "name": "freeonlinemarketplace",
     "version": "0.1.1",
     "private": true,
-    "type": "module",
     "engines": {
-        "node": "22.9.0",
+        "node": ">=22.0.0",
         "npm": "10.9.0"
     },
     "scripts": {
-        "dev": "dotenvx run -- next dev --turbo",
+        "dev": "dotenvx run -- next dev --turbo & wait-on http://localhost:3000 && code tunnel && localtunnel --port 3000 --subdomain imgnx && open http://imgnx.loca.lt",
+        "serve": "dotenvx run -- next dev --turbo",
+        "localtunnel": "./localtunnel.sh",
+        "ngrok": "./ngrok.sh",
         "build": "dotenvx run -- next build",
-        "start": "dotenvx run -- next start",
+        "start": "next start",
+        "start:dotenvx": "dotenvx run -- next start",
         "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix",
         "try-prisma": "try-prisma  --template databases/prisma-postgres --name hello-prisma --install npm"
     },
@@ -39,12 +42,16 @@
         "@sanity/client": "^6.22.4",
         "@stripe/stripe-js": "^4.9.0",
         "@types/mdx": "^2.0.13",
+        "@workos-inc/node": "^7.34.0",
         "algoliasearch": "^5.13.0",
         "clsx": "2.1.1",
+        "dropcap.js": "^1.0.1",
         "framer-motion": "~11.1.1",
+        "highlight.js": "^11.10.0",
         "intl-messageformat": "^10.7.6",
         "jquery": "^3.7.1",
         "latex.js": "^0.12.6",
+        "localtunnel": "^2.0.2",
         "mathjax": "^3.2.2",
         "natural": "^8.0.1",
         "next": "^15.0.3",
@@ -52,13 +59,16 @@
         "next-themes": "^0.3.0",
         "partysocket": "1.0.2",
         "prisma": "^5.22.0",
+        "qrcode": "^1.5.4",
         "react": "^18.3.1",
         "react-aria": "^3.35.1",
         "react-dom": "^18.3.1",
         "react-icons": "^5.3.0",
         "react-skip-nav": "^0.0.13",
+        "resend": "^4.0.1",
         "socket.io": "^4.8.1",
         "socket.io-client": "^4.8.1",
+        "wait-on": "^8.0.1",
         "wheel-fortune": "^2.1.0"
     },
     "devDependencies": {
@@ -66,6 +76,7 @@
         "@tailwindcss/container-queries": "^0.1.1",
         "@tailwindcss/forms": "^0.5.9",
         "@tailwindcss/typography": "^0.5.15",
+        "@types/localtunnel": "^2",
         "@types/node": "^20.5.7",
         "@types/react": "18.3.3",
         "@types/react-dom": "18.3.0",
@@ -88,5 +99,6 @@
         "tailwind-variants": "0.1.20",
         "tailwindcss": "3.4.3",
         "typescript": "5.6.3"
-    }
+    },
+    "packageManager": "yarn@4.5.1+sha512.341db9396b6e289fecc30cd7ab3af65060e05ebff4b3b47547b278b9e67b08f485ecd8c79006b405446262142c7a38154445ef7f17c1d5d1de7d90bf9ce7054d"
 }
